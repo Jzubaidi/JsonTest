@@ -1,9 +1,9 @@
-//
-//  JsonTestApp.swift
-//  JsonTest
-//
-//  Created by Consultant on 1/16/23.
-//
+////
+////  JsonTestApp.swift
+////  JsonTest
+////
+////  Created by Consultant on 1/16/23.
+////
 
 import SwiftUI
 
@@ -11,7 +11,8 @@ import SwiftUI
 struct JsonTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView(display: ViewModel())
+            FileView(item: ViewModel())
         }
     }
 }
